@@ -34,20 +34,19 @@ Here are a few screenshots just to get you excited:
 
 Thank you for your interest in contributing to the project. The best way to contribute is by **participating in the community** and **helping other users**. 
 
-You can also contribute by submitting **bug reports** and **feature requests** or writing code (submitting PRs) which can be incorporated into Jesse itself.
+You can also contribute by submitting **bug reports** and **feature requests** or writing code (submitting PRs) which can be incorporated into BluestarAI itself.
 
 In that case, here's what you need to know:
 
 - Before starting to work on a PR, please **reach out** to make sure it **aligns** with the **project's roadmap** and **vision**.
-- If your PR makes changes to the source code, please make sure to **add unit tests**. If you're not sure how to do that, just check out some of the already existing [tests](https://github.com/jesse-ai/jesse/tree/master/tests).
 
-First, you need to install Jesse from the repository instead of PyPi:
+First, you need to install BluestarAI from the repository instead of PyPi:
 
 ```sh
 # first, make sure that the PyPi version is not installed
 pip uninstall bluestarai
 
-# now install victor from the repository
+# now install bluestarai from the repository
 git clone https://github.com/bluestarai/tradingbot.git
 cd jesse
 pip install -e .
