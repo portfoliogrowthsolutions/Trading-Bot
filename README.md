@@ -26,8 +26,6 @@ Here are a few screenshots just to get you excited:
 
 ![image](assets/screenshots/strategy.jpg)
 
-**Live trading (requires [live plugin](https://docs.jesse.trade/docs/livetrade.html)):**
-
 ![image](assets/screenshots/live-mode.jpg)
 
 
@@ -47,10 +45,10 @@ First, you need to install Jesse from the repository instead of PyPi:
 
 ```sh
 # first, make sure that the PyPi version is not installed
-pip uninstall jesse
+pip uninstall bluestarai
 
-# now install Jesse from the repository
-git clone https://github.com/jesse-ai/jesse.git
+# now install victor from the repository
+git clone https://github.com/bluestarai/tradingbot.git
 cd jesse
 pip install -e .
 ```
